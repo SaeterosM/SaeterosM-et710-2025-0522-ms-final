@@ -1,0 +1,13 @@
+<section class="container">
+  <div class="row">
+    <div class="col-sm-6" *ngFor="let product of products">
+      <p>{{ product.label }}</p>
+      <img [src]="product.img">
+    </div>
+  </div>
+  <div class="row text-center">
+    <a class="btn btn-secondary" href="#">View Complete Catalogue</a>
+  </div>
+</section>
+
+
